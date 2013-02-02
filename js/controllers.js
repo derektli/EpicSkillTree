@@ -34,7 +34,8 @@ function TreeMakerController($scope) {
         }).data('popup'),
 
         createNode = function (node) {
-            var newNode = $("<div class='node'><h6>" + node.title + "</h6><hr/><a href=" + node.link + " > " + node.link + "</a><br/><p>" + node.desc + "</p></div>");
+            var newNode = $("<div class='node'><h4>" + node.title + "</h4><br/><a href=http://" + node.link + ">Link</a></div>");
+            var newNodePopup = $("<div class='nodePopup'><h6>" + node.title + "</h6><hr/><a href=" + node.link + " > " + node.link + "</a><br/><p>" + node.desc + "</p></div>");
             $(".addNode").replaceWith(newNode);
         };
 

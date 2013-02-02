@@ -63,7 +63,11 @@
     margin:0;
 }
 .node {
-    width:350px;
-    height:350px;
+    overflow:hidden;
+    height: 90px;
+    width: 90px;
+    border: 1px solid #AAA;
+    border-radius: 10px;
+    padding: 10px;
 }
 /*endregion*/
