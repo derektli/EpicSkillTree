@@ -1,0 +1,26 @@
+<div class="container">
+    <h1>Tree Maker</h1>
+    <div class="row-fluid">
+        <div class="span4">
+            <h3>Example Tree</h3>
+        </div>
+        <div class="span8">
+            <h3>Make your own</h3>
+            <a href="#" class="btn btn-primary addNode">Add a node <i class=" icon-plus-sign icon-white"></i></a>
+            <div class="popupTemplate" id="addNodePopup">
+                <form id="addNodeForm" action="javascript:$('#addNodeForm').submit();">
+                    <fieldset>
+                        <label>Title:</label><input type="text"/>
+                        <label>Link:</label><input type="text"/>
+                        <label>Description:</label><textarea></textarea>
+                        <br/>
+                        <a class="btn btn-primary cancelButton" onclick="closeAddNodePopup();">Cancel</a>
+                        <input type="submit" value="Save Node" class="submit btn btn-primary saveButton"/>
+                    </fieldset>
+                </form>
+            </div>
+            <br/>
+            <button class="btn btn-large btn-primary saveButton">Save Tree</button>
+            </div>
+    </div>
+</div> <!-- /container -->
