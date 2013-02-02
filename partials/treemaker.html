@@ -8,7 +8,7 @@
             <h3>Make your own</h3>
             <a href="#" class="btn btn-primary addNode">Add a node <i class=" icon-plus-sign icon-white"></i></a>
             <div class="popupTemplate" id="addNodePopup">
-                <form id="addNodeForm" action="javascript:$('#addNodeForm').submit();">
+                <form id="addNodeForm" ng-submit="addNode()" action="javascript:;">
                     <fieldset>
                         <label>Title:</label><input type="text" name="title" required="required"/>
                         <label>Link:</label><input type="text" name="link" required="required"/>

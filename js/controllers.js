@@ -13,7 +13,7 @@ function ContactController() {
 }
 ContactController.$inject = [];
 
-function TreeMakerController() {
+function TreeMakerController($scope) {
 
     var addNodePopupTemplate = $("#addNodePopup"),
 //
@@ -31,20 +31,18 @@ function TreeMakerController() {
 
         addNodePopup = $(".addNode").popup({
             content : addNodePopupTemplate
-        }).data('popup'),
+        }).data('popup');
 
-        createNode = function (node) {
-
-        };
-
-    $('#addNodeForm').submit(function (e) {
-        e.preventDefault();
+    $scope.addNode = function () {
         var title = $("input[name=title]")[1].value,
             link = $("input[name=link]")[1].value,
             description = $("textarea[name=desc]")[1].value,
-            node = {title: title, link: link, desc: description},
-            newNode = createNode(node);
+            node = {title: title, link: link, desc: description};
         addNodePopup.close();
+    };
+
+    $('#addNodeForm').submit(function (e) {
+        e.preventDefault();
     });
 }
 TreeMakerController.$inject = [];
