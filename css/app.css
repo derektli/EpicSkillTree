@@ -62,4 +62,8 @@
 .popup form {
     margin:0;
 }
+.node {
+    width:350px;
+    height:350px;
+}
 /*endregion*/

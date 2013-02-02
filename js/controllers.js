@@ -31,18 +31,21 @@ function TreeMakerController($scope) {
 
         addNodePopup = $(".addNode").popup({
             content : addNodePopupTemplate
-        }).data('popup');
+        }).data('popup'),
 
-    $scope.addNode = function () {
-        var title = $("input[name=title]")[1].value,
-            link = $("input[name=link]")[1].value,
-            description = $("textarea[name=desc]")[1].value,
-            node = {title: title, link: link, desc: description};
-        addNodePopup.close();
-    };
+        createNode = function (node) {
+            var newNode = $("<div class='node'><h6>" + node.title + "</h6><hr/><a href=" + node.link + " > " + node.link + "</a><br/><p>" + node.desc + "</p></div>");
+            $(".addNode").replaceWith(newNode);
+        };
 
     $('#addNodeForm').submit(function (e) {
         e.preventDefault();
+        var title = $("input[name=title]")[1].value,
+            link = $("input[name=link]")[1].value,
+            description = $("textarea[name=desc]")[1].value,
+            node = {title: title, link: link, desc: description},
+            newNode = createNode(node);
+        addNodePopup.close();
     });
 }
 TreeMakerController.$inject = [];
