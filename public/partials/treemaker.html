@@ -10,11 +10,10 @@
             <div class="popupTemplate" id="addNodePopup">
                 <form id="addNodeForm" action="javascript:$('#addNodeForm').submit();">
                     <fieldset>
-                        <label>Title:</label><input type="text"/>
-                        <label>Link:</label><input type="text"/>
-                        <label>Description:</label><textarea></textarea>
+                        <label>Title:</label><input type="text" name="title" required="required"/>
+                        <label>Link:</label><input type="text" name="link" required="required"/>
+                        <label>Description:</label><textarea name="desc" required="required"></textarea>
                         <br/>
-                        <a class="btn btn-primary cancelButton" onclick="closeAddNodePopup();">Cancel</a>
                         <input type="submit" value="Save Node" class="submit btn btn-primary saveButton"/>
                     </fieldset>
                 </form>

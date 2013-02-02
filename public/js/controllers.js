@@ -1,7 +1,6 @@
 'use strict';
 
 /* Controllers */
-
 function InitialController() {
 }
 InitialController.$inject = [];
@@ -15,18 +14,37 @@ function ContactController() {
 ContactController.$inject = [];
 
 function TreeMakerController() {
-//    var addNodePopup = $(".addNode").popup({
-//        content : $('#addNodePopup')
-//    }).data('popup');
+
+    var addNodePopupTemplate = $("#addNodePopup"),
 //
-//    var closeAddNodePopup = function () {
-//        addNodePopup.close();
-//    };
-//
-//    $('#addNodeForm').submit(function (e) {
-//        console.log("bleh");
-//        e.preventDefault();
-//        return false;
-//    });
+//            $('<div class="popupTemplate" id="addNodePopup">' +
+//            '<form id="addNodeForm" action="javascript:$(\"addNodeForm\").submit();">' +
+//                '<fieldset>' +
+//                    '<label>Title:</label><input type="text" name="title"/>' +
+//                    '<label>Link:</label><input type="text" name="link"/>' +
+//                    '<label>Description:</label><textarea name="desc"></textarea>' +
+//                    '<br/>' +
+//                    '<input type="submit" value="Save Node" class="submit btn btn-primary saveButton"/>' +
+//                '</fieldset>' +
+//            '</form>' +
+//            '</div>'),
+
+        addNodePopup = $(".addNode").popup({
+            content : addNodePopupTemplate
+        }).data('popup'),
+
+        createNode = function (node) {
+
+        };
+
+    $('#addNodeForm').submit(function (e) {
+        e.preventDefault();
+        var title = $("input[name=title]")[1].value,
+            link = $("input[name=link]")[1].value,
+            description = $("textarea[name=desc]")[1].value,
+            node = {title: title, link: link, desc: description},
+            newNode = createNode(node);
+        addNodePopup.close();
+    });
 }
 TreeMakerController.$inject = [];
