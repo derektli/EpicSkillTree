@@ -70,8 +70,8 @@ function TreeMakerController($scope) {
     $("#startTreeButton").on("click", function () {
         console.log("Creating Tree...");
         var newTree = createTree($("#treeNameTextBox").val()),
-            newTreeUL = $("<ul name="+newTree.node.treeName+">" +
-                            "<li>" +
+            newTreeUL = $("<ul>" +
+                            "<li class="+newTree.node.treeName+">" +
                                 newTree.node.treeName +
                             "</li>" +
                         "</ul>");
@@ -80,12 +80,15 @@ function TreeMakerController($scope) {
         $(this.parentElement).css("display", "none");
     });
     $(document).on("click", ".node", function (e) {
+        var event = e;
         $("#nodePopup").bPopup({
             onOpen: function () {
                 //Load node values
+                console.log($(event.target));
             },
             onClose: function () {
                 //Clear input values
+                console.log($(event.target));
             }
         })
     });

@@ -23,16 +23,25 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="28" selection-start="1680" selection-end="1680" vertical-scroll-proportion="-4.6923075">
+            <state line="33" column="19" selection-start="1476" selection-end="1476" vertical-scroll-proportion="-14.192307">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllers.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="initial.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/partials/initial.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="44" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.91099477">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="35" selection-start="2015" selection-end="2019" vertical-scroll-proportion="0.60267115">
+            <state line="58" column="14" selection-start="1484" selection-end="1484" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -61,7 +70,7 @@
       <file leaf-file-name="jquery.jOrgChart.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/lib/jOrgChart/jquery.jOrgChart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="134" column="32" selection-start="4258" selection-end="4258" vertical-scroll-proportion="-5.96">
+            <state line="101" column="22" selection-start="3040" selection-end="3040" vertical-scroll-proportion="-15.12">
               <folding />
             </state>
           </provider>
@@ -78,12 +87,14 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/public/lib/underscore/underscore.js" />
-        <option value="$PROJECT_DIR$/public/lib/jOrgChart/jquery.jOrgChart.js" />
         <option value="$PROJECT_DIR$/public/lib/bPopup/bPopup.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/stylesheets/app.css" />
         <option value="$PROJECT_DIR$/public/partials/treemaker.html" />
         <option value="$PROJECT_DIR$/public/javascripts/controllers.js" />
+        <option value="$PROJECT_DIR$/public/treeExample.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/lib/jOrgChart/jquery.jOrgChart.js" />
+        <option value="$PROJECT_DIR$/public/partials/initial.html" />
       </list>
     </option>
   </component>
@@ -187,46 +198,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EpicSkillTree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EpicSkillTree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="underscore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EpicSkillTree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EpicSkillTree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -234,13 +205,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="recentsLimit" value="5" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="options.lastSelected" value="preferences.externalResources" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="C:/FoundOPS/html5/build/webserver.js" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -297,8 +273,8 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961948" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24961948" sideWeight="0.67147434" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21613394" sideWeight="0.67147434" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -388,20 +364,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="28" selection-start="1680" selection-end="1680" vertical-scroll-proportion="-4.6923075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/lib/jOrgChart/jquery.jOrgChart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="32" selection-start="4258" selection-end="4258" vertical-scroll-proportion="-5.96">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="2" selection-start="983" selection-end="983" vertical-scroll-proportion="-7.32">
@@ -418,9 +380,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/lib/jOrgChart/jquery.jOrgChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="22" selection-start="3040" selection-end="3040" vertical-scroll-proportion="-15.12">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="35" selection-start="2015" selection-end="2019" vertical-scroll-proportion="0.60267115">
+        <state line="58" column="14" selection-start="1484" selection-end="1484" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="19" selection-start="1476" selection-end="1476" vertical-scroll-proportion="-14.192307">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/partials/initial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="44" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.91099477">
           <folding />
         </state>
       </provider>
