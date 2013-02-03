@@ -29,19 +29,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="initial.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="initial.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/partials/initial.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="44" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.91099477">
+            <state line="33" column="11" selection-start="1140" selection-end="1376" vertical-scroll-proportion="-16.153847">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="controllers.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/javascripts/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="14" selection-start="1484" selection-end="1484" vertical-scroll-proportion="0.0">
+            <state line="83" column="31" selection-start="2461" selection-end="2461" vertical-scroll-proportion="0.57429045">
               <folding />
             </state>
           </provider>
@@ -70,7 +70,7 @@
       <file leaf-file-name="jquery.jOrgChart.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/lib/jOrgChart/jquery.jOrgChart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="22" selection-start="3040" selection-end="3040" vertical-scroll-proportion="-15.12">
+            <state line="101" column="22" selection-start="3040" selection-end="3040" vertical-scroll-proportion="-9.36">
               <folding />
             </state>
           </provider>
@@ -90,11 +90,11 @@
         <option value="$PROJECT_DIR$/public/lib/bPopup/bPopup.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/app.css" />
         <option value="$PROJECT_DIR$/public/partials/treemaker.html" />
-        <option value="$PROJECT_DIR$/public/javascripts/controllers.js" />
         <option value="$PROJECT_DIR$/public/treeExample.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/public/lib/jOrgChart/jquery.jOrgChart.js" />
         <option value="$PROJECT_DIR$/public/partials/initial.html" />
+        <option value="$PROJECT_DIR$/public/lib/jOrgChart/jquery.jOrgChart.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/controllers.js" />
       </list>
     </option>
   </component>
@@ -382,14 +382,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/lib/jOrgChart/jquery.jOrgChart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="22" selection-start="3040" selection-end="3040" vertical-scroll-proportion="-15.12">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="14" selection-start="1484" selection-end="1484" vertical-scroll-proportion="0.0">
+        <state line="101" column="22" selection-start="3040" selection-end="3040" vertical-scroll-proportion="-9.36">
           <folding />
         </state>
       </provider>
@@ -403,7 +396,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/partials/initial.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="44" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.91099477">
+        <state line="33" column="11" selection-start="1140" selection-end="1376" vertical-scroll-proportion="-16.153847">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="31" selection-start="2461" selection-end="2461" vertical-scroll-proportion="0.57429045">
           <folding />
         </state>
       </provider>

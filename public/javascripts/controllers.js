@@ -78,6 +78,17 @@ function TreeMakerController($scope) {
         attachTree(newTreeUL, $("#newTree"));
 //        attachTree(treeJSONParser(newTree, "HTML"), $("#newTree"));
         $(this.parentElement).css("display", "none");
+
+        $.ajax({
+            type: "POST",
+            dataType : "jsonp",
+            url: "https://mhacks-epicskilltree.rhcloud.com/treecontrol/adddnode.json?treename=" + newTree.node.treeName +
+                "&description=" + newTree.node.desc,
+//            treecontrol/addnode.json?treename=rod&name=wtf&parent=rod&link=www.abc.com&description=wtf
+            done: function (response) {
+                alert(response);
+            }
+        });
     });
     $(document).on("click", ".node", function (e) {
         var event = e;

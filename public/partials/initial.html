@@ -25,7 +25,6 @@
 <script>
     var getTree = function () {
         var searchTerm = $("#searchTermBox").val();
-
         $.ajax({
             type: "GET",
             url: "https://mhacks-epicskilltree.rhcloud.com/treecontrol/gettree?treename=" + searchTerm,
@@ -33,7 +32,6 @@
                 alert(response);
             }
         });
-    }
-
+    };
     $("#searchTreesForm").submit(getTree());
 </script>
