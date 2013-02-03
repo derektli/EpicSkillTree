@@ -1,31 +1,31 @@
 /*region Preset Angular Styles */
 .menu {
-  list-style: none;
-  border-bottom: 0.1em solid black;
-  margin-bottom: 2em;
-  padding: 0 0 0.5em;
+    list-style: none;
+    border-bottom: 0.1em solid black;
+    margin-bottom: 2em;
+    padding: 0 0 0.5em;
 }
 
 .menu:before {
-  content: "[";
+    content: "[";
 }
 
 .menu:after {
-  content: "]";
+    content: "]";
 }
 
 .menu > li {
-  display: inline;
+    display: inline;
 }
 
 .menu > li:before {
-  content: "|";
-  padding-right: 0.3em;
+    content: "|";
+    padding-right: 0.3em;
 }
 
 .menu > li:nth-child(1):before {
-  content: "";
-  padding: 0;
+    content: "";
+    padding: 0;
 }
 /*endregion*/
 /*region Bootstrap overrides*/
@@ -48,18 +48,33 @@
     float: right;
     margin: 5px;
 }
-.saveButton {
-    float: right;
-    margin-right: 5px;
-}
 .cancelButton {
     float: right;
     margin-right: 5px;
 }
-.popupTemplate {
-    display: none;
+#saveTreeButton {
+    position: relative;
+    top: -45px;
+    left: 190px;
 }
-.popup form {
-    margin:0;
+#makeTreeForm {
+    margin-top: -30px;
+}
+#nodePopup {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+.node {
+    overflow:hidden;
+    max-height: 90px;
+    width: 90px;
+    border: 1px solid #AAA;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+}
+.jOrgChart .node {
+    color: white;
 }
 /*endregion*/

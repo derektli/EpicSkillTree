@@ -3,23 +3,21 @@
     <div class="row-fluid">
         <div class="span4">
             <h3>Example Tree</h3>
+            <div id="exampleTree"></div>
         </div>
         <div class="span8">
             <h3>Make your own</h3>
-            <a href="#" class="btn btn-primary addNode">Add a node <i class=" icon-plus-sign icon-white"></i></a>
-            <div class="popupTemplate" id="addNodePopup">
-                <form id="addNodeForm" ng-submit="addNode()" action="javascript:;">
-                    <fieldset>
-                        <label>Title:</label><input type="text" name="title" required="required"/>
-                        <label>Link:</label><input type="text" name="link" required="required"/>
-                        <label>Description:</label><textarea name="desc" required="required"></textarea>
-                        <br/>
-                        <input type="submit" value="Save Node" class="submit btn btn-primary saveButton"/>
-                    </fieldset>
-                </form>
-            </div>
-            <br/>
-            <button class="btn btn-large btn-primary saveButton">Save Tree</button>
-            </div>
+            <button id="saveTreeButton" class="submit btn btn-primary">Save Tree <i class="icon-ok icon-white"></i></button>
+            <form id="makeTreeForm" class="form-inline">
+                <input type="text" placeholder="Tree Name" id="treeNameTextBox" required/>
+                <button id="startTreeButton" class="btn btn-primary">Start Tree <i class="icon-leaf icon-white"></i></button>
+            </form>
+            <div id="newTree"></div>
+        </div>
+    </div>
+    <div id="nodePopup" style="display:none;">
+        <label>Title:</label><input type="text" name="title" required="required"/>
+        <label>Link:</label><input type="url" name="link" required="required"/>
+        <label>Description:</label><textarea name="desc" required="required"></textarea>
     </div>
 </div> <!-- /container -->
