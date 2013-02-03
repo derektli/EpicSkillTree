@@ -1,4 +1,7 @@
 RailsApp::Application.routes.draw do
+  get "treecontrol/addnode"
+  get "treecontrol/gettree"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
