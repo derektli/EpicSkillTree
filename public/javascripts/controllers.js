@@ -81,7 +81,7 @@ function TreeMakerController($scope) {
 
         $.ajax({
             type: "POST",
-            url: "https://mhacks-epicskilltree.rhcloud.com/treecontrol/adddnode.json?treename=" + newTree.node.treeName +
+            url: "https://mhacks-epicskilltree.rhcloud.com/treecontrol/addnode.json?treename=" + newTree.node.treeName +
                 "&description=" + newTree.node.desc,
 //            treecontrol/addnode.json?treename=rod&name=wtf&parent=rod&link=www.abc.com&description=wtf
             done: function (response) {
